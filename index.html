@@ -65,16 +65,18 @@
         </svg>
       </a>
       <nav class="menu">
-        <ul class="menu-list">
-          <li class="menu-item"><a class="menu-link">Главная</a></li>
-          <li class="menu-item">
-            <a href="#" class="menu-link">Фото и видео</a>
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link">Главная</a>
           </li>
-          <li class="menu-item">
-            <a href="form.html" class="menu-link">Форма отзыва</a>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Фото и видео</a>
           </li>
-          <li class="menu-item">
-            <a href="#" class="menu-link">HTML academy</a>
+          <li class="menu__item">
+            <a href="form.html" class="menu__link">Форма отзыва</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">HTML academy</a>
           </li>
         </ul>
       </nav>
@@ -83,7 +85,7 @@
       <h1>Главная страница</h1>
       <div class="banner">
         <svg
-          class="banner-text"
+          class="banner__text"
           width="460"
           height="350"
           fill="none"
@@ -109,23 +111,23 @@
         </svg>
       </div>
       <section class="reasons">
-        <h2 class="reasons-header">
+        <h2 class="reasons__header">
           Седона — небольшой городок в аризоне, заслуживающий большего!
         </h2>
-        <p class="reasons-text">
+        <p class="reasons__text">
           Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
         </p>
         <ol class="reasons-list">
-          <li class="reasons-item">
-            <article class="reason">
-              <h3 class="reason-header">Настоящий городок</h3>
-              <p class="reason-text">
+          <li class="reasons-list__item">
+            <article class="city-reason">
+              <h3 class="city-reason__header">Настоящий городок</h3>
+              <p class="city-reason__text">
                 Седона не аттракцион для туристов, там течет своя жизнь
               </p>
-              <ul class="city-resons-list">
-                <li class="city-resons-item">
+              <ul class="city-reasons">
+                <li class="city-reason-item">
                   <svg
-                    class="city-reasons-bullet"
+                    class="city-reason-item__bullet"
                     width="75"
                     height="70"
                     xmlns="http://www.w3.org/2000/svg"
@@ -144,14 +146,14 @@
                       d="m72 38 2.1-2-9.8-9.5V.4H50.6v12.8L37 0 0 36.2l2 2 7.8-7.5v36.5H6V70h63.3v-2.8h-5V30.6L72 38ZM53.5 3.4h7.8v20.4L53.5 16V3.3Zm7.8 63.8H12.8V27.8L37 4l24.3 23.7V67Z"
                     />
                   </svg>
-                  <h4 class="city-resons-header">Жилье</h4>
-                  <p class="city-resons-text">
+                  <h4 class="city-reason-item__header">Жилье</h4>
+                  <p class="city-reason-item__text">
                     Рекомендуем пожить в настоящем мотеле, все как в кино!
                   </p>
                 </li>
-                <li class="city-resons-item">
+                <li class="city-reason-item">
                   <svg
-                    class="city-reasons-buller"
+                    class="city-reason-item__bullet"
                     width="62"
                     height="73"
                     xmlns="http://www.w3.org/2000/svg"
@@ -160,14 +162,14 @@
                       d="M58.7 21.3H35.1c13.2-6.6 14.2-10.7 13.8-13-1.1-3.8-5.5-6.6-9.5-5.1-5.3 2-6.8 10-8.2 15.6-1.8-5.8-3.6-13.1-7.7-16.9A7 7 0 0 0 18 0c-3.9.4-9.4 5.1-7 10.4 2 5.1 9 8.4 13.8 11H3.3A2.7 2.7 0 0 0 .6 24v10.8c0 1.5 1.3 2.7 2.7 2.7h.3v34.6h55V37.6h.1c1.5 0 2.7-1.3 2.7-2.7V24c0-1.6-1.3-2.8-2.7-2.8ZM40.9 5.6c2-.3 4.8 1.3 5 3 .4 2.7-3.1 5-4.8 6.1-2.4 1.7-4.7 2.5-7 3.9.9-3.6 2.5-12.4 6.8-13ZM19.1 15c-2-1.4-6.1-4.2-6-7.4 0-3.4 5.5-6.2 8.3-3.6C25.1 7 27 14.6 28.2 19.8c-3-1.6-6-2.7-9-4.8Zm5.7 54.3H6.4V37.6h18.4v31.7Zm0-34.6H3.5V24.2h21.3v10.5Zm9.7 34.6h-6.9V24.2h6.9v45.1Zm21.2 0H37.4V37.6h18.4v31.7Zm2.8-34.6H37.4V24.2h21.1v10.5Z"
                     />
                   </svg>
-                  <h4 class="city-resons-header">Сувениры</h4>
-                  <p class="city-resons-text">
+                  <h4 class="city-reason-item__header">Сувениры</h4>
+                  <p class="city-reason-item__text">
                     Не только китайского, но и местного производства!
                   </p>
                 </li>
-                <li class="city-resons-item">
+                <li class="city-reason-item">
                   <svg
-                    class="city-reasons-bullet"
+                    class="city-reason-item__bullet"
                     width="76"
                     height="68"
                     xmlns="http://www.w3.org/2000/svg"
@@ -179,8 +181,8 @@
                       d="M38 17.2a2 2 0 0 0 2-2c0-1-.9-1.8-2-1.8a2 2 0 0 0-2 1.9c0 1 .9 2 2 2ZM30 12.5a2 2 0 0 0 2-2c0-1-.9-1.9-2-1.9a2 2 0 0 0-2 2c0 1 1 1.9 2 1.9ZM46 12.5a2 2 0 0 0 2-2c0-1-1-1.9-2-1.9a2 2 0 0 0-2 2c0 1 .9 1.9 2 1.9Z" 
                     />
                   </svg>
-                  <h4 class="city-resons-header">Еда</h4>
-                  <p class="city-resons-text">
+                  <h4 class="city-reason-item__header">Еда</h4>
+                  <p class="city-reason-item__text">
                     Всегда заказывайте фирменный бургер, вы не разочаруетесь!
                   </p>
                 </li>
@@ -189,32 +191,32 @@
           </li>
           <li class="reasons-item">
             <article class="reason">
-              <h3 class="reason-header">Там есть Мост дьявола</h3>
-              <p class="reason-text">
+              <h3 class="reason__header">Там есть Мост дьявола</h3>
+              <p class="reason__text">
                 Да, по нему можно пройти! Если вы осмелитесь, конечно
               </p>
             </article>
           </li>
           <li class="reasons-item">
             <article class="reason">
-              <h3 class="reason-header">Небольшая площадь</h3>
-              <p class="reason-text">
+              <h3 class="reason__header">Небольшая площадь</h3>
+              <p class="reason__text">
                 Все интересные места находятся очень близко
               </p>
             </article>
           </li>
           <li class="reasons-item">
             <article class="reason">
-              <h3 class="reason-header">Красивая дорога</h3>
-              <p class="reason-text">
+              <h3 class="reason__header">Красивая дорога</h3>
+              <p class="reason__text">
                 Ехать в седону из лас-вегаса совсем не скучно!
               </p>
             </article>
           </li>
           <li class="reasons-item">
             <article class="reason">
-              <h3 class="reason-header">Мало туристов</h3>
-              <p class="reason-text">
+              <h3 class="reason__header">Мало туристов</h3>
+              <p class="reason__text">
                 Большинство едет в гранд каньон и толпится там
               </p>
             </article>
@@ -222,21 +224,21 @@
         </ol>
       </section>
       <section class="search-motel">
-        <h2 class="search-motel-header">Заинтересовались?</h2>
-        <p class="search-motel-text">
+        <h2 class="search-motel__header">Заинтересовались?</h2>
+        <p class="search-motel__text">
           Укажите предполагаемые даты поездки, и мы покажем вам лучшие
           предложения гостиниц в седоне
         </p>
-        <a class="search-motel-button" href="#">Найти гостиницу</a>
+        <a class="search-motel__button" href="#">Найти гостиницу</a>
       </section>
       <div class="map">
-        <span class="map-pin"></span>
+        <span class="map__pin"></span>
       </div>
     </main>
     <footer class="footer">
-      <strong class="footer-hashtag">#visitsedona</strong>
-      <ul class="footer-social-list">
-        <li class="footer-social-item">
+      <strong class="hashtag">#visitsedona</strong>
+      <ul class="social-list">
+        <li class="social-list-item">
           <a class="social-link" href="#" target="_blank">
             <svg
               class="social-twitter-logo"
@@ -251,7 +253,7 @@
             </svg>
           </a>
         </li>
-        <li class="footer-social-item">
+        <li class="social-list-item">
           <a class="social-link" href="#" target="_blank">
             <svg
               class="social-facebook-logo"
@@ -266,7 +268,7 @@
             </svg>
           </a>
         </li>
-        <li class="footer-social-item">
+        <li class="social-list-item">
           <a class="social-link" href="#" target="_blank">
             <svg
               class="social-youtube-logo"
@@ -282,11 +284,11 @@
           </a>
         </li>
       </ul>
-      <p class="footer-developer">
+      <p class="developer">
         Разработано
-        <a href="#" class="developer-link" target="_blank">
+        <a href="#" class="developer__link" target="_blank">
           <svg
-            class="developer-logo"
+            class="developer__logo"
             width="28"
             height="34"
             xmlns="http://www.w3.org/2000/svg"
