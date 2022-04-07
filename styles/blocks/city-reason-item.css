@@ -1,0 +1,14 @@
+.city-reason-item__header {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+}
+
+.city-reason-item__text {
+    text-align: left;
+}
+
+.city-reason-item__bullet {
+    fill: #81B3D2;
+}

@@ -1,0 +1,15 @@
+.search-motel__header {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.search-motel__text {
+    line-height: 24px;
+}
+
+.search-motel__button {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+}

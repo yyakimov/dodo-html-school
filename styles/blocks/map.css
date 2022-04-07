@@ -1,0 +1,8 @@
+.map{
+    width: 320px;
+    height: 350px;
+    background-color: #f2f1ed;
+    background-image: url('/img/map-desktop@1x.jpg');
+    background-size: cover;
+    background-position: center;
+}
