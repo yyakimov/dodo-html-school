@@ -2,6 +2,18 @@
     text-align: left;
     display: flex;
     align-items: flex-start;
+
+    padding: 9px 20px;
+
+    background-color: #FFF;
+}
+
+.city-reason-item:first-child {
+    padding-top: 25px;
+}
+
+.city-reason-item:last-child {
+    padding-bottom: 36px;
 }
 
 .city-reason-item__bullet-wrapper {
