@@ -19,3 +19,8 @@ button, textarea {
     background-color: inherit;
     line-height: inherit;
 }
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+    margin-block: 0;
+}

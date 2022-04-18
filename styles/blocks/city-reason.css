@@ -1,3 +1,16 @@
+.city-reason {
+    background-color: #81B3D2;
+    color: #FFF;
+}
+
+.city-reason__header {
+    padding: 57px 20px 12px 20px;
+}
+
+.city-reason__text {
+    padding: 0 20px 36px 20px;
+}
+
 .city-reason__banner {
     width: 320px;
     height: 260px;

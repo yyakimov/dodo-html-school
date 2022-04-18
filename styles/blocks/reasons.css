@@ -1,3 +1,14 @@
+.reasons {
+    padding-top: 32px;
+}
+
+.reasons__header {
+    padding: 0 20px;
+    margin-bottom: 28px;
+}
+
 .reasons__text {
+    padding: 0 20px;
+    padding-bottom: 14px;
     line-height: 26px;
 }
