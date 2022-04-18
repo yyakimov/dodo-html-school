@@ -1,7 +1,9 @@
 .city-reason-item {
     text-align: left;
+    display: flex;
 }
 
 .city-reason-item__bullet {
     fill: #81B3D2;
+    height: 40px;
 }
