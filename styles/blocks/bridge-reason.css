@@ -7,6 +7,10 @@
     padding: 36px 20px 14px 20px;
 }
 
+.bridge-reason__bullet {
+    padding: 0 20px 16px 20px;
+}
+
 .bridge-reason__text {
-    padding: 16px 20px 36px 20px;
+    padding: 0 20px 36px 20px;
 }
