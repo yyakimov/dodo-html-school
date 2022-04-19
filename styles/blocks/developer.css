@@ -1,9 +1,11 @@
 .developer{
     display: flex;
     align-items: center;
+    padding: 40px 20px 20px 20px;
 }
 
 .developer__link {
     display: flex;
     line-height: 26px;
+    padding-left: 12px;
 }
