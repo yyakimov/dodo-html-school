@@ -1,6 +1,7 @@
 .city-reason-item {
     text-align: left;
     display: flex;
+    align-items: flex-start;
 }
 
 .city-reason-item__bullet {
