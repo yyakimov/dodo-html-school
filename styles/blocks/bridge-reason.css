@@ -1,0 +1,12 @@
+.bridge-reason {
+    color: #FFF;
+    background-color: #81B3D2;
+}
+
+.bridge-reason__header {
+    padding: 36px 20px 14px 20px;
+}
+
+.bridge-reason__text {
+    padding: 16px 20px 36px 20px;
+}
