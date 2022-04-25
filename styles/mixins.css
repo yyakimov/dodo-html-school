@@ -23,3 +23,13 @@
     color: #FFF;
     background-color: #81B3D2;
 }
+
+.input {
+    background-color: #F2F2F2;
+    padding: 14px 22px;
+    border: 0;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+}

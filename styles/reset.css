@@ -29,10 +29,8 @@ textarea {
     resize: none;
 }
 
-button {
-    align-items: center;
-}
-
 fieldset {
     border: 0;
+    padding: 0;
+    margin: 0;
 }
