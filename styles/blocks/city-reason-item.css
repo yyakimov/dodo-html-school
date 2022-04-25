@@ -4,6 +4,16 @@
     align-items: flex-start;
 }
 
+.city-reason-item__bullet-wrapper {
+    fill: #81B3D2;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
 .city-reason-item__bullet {
     fill: #81B3D2;
     height: 40px;
