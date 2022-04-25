@@ -101,20 +101,29 @@
       <form class="feedback-form" method="POST" action="https://echo.htmlacademy.ru">
         <fieldset class="form-fieldset">
           <legend class="form-fieldset__legend title-s">Представьтесь:</legend>
-          <ul>
-            <li>
-              <label class="form-label">ИМЯ*:
-                <input class="form-input" name="firstName" placeholder="Введите имя" required/>
+          <ul class="feedback-form-about">
+            <li class="feedback-form-about__item">
+              <label>
+                <div class="feedback-form-group">
+                  <span class="feedback-form-group__name">ИМЯ*:</span>
+                  <input class="feedback-form-group__input input" name="firstName" placeholder="Введите имя" required />
+                </div>
               </label>
             </li>
-            <li>
-              <label class="form-label">ФАМИЛИЯ*:
-                <input class="form-input" name="lastName" placeholder="Введите фамилию" required/>
+            <li class="feedback-form-about__item">
+              <label>
+                <div class="feedback-form-group">
+                  <span class="feedback-form-group__name">ФАМИЛИЯ*:</span>
+                  <input class="feedback-form-group__input input" name="lastName" placeholder="Введите фамилию" required />
+                </div>
               </label>
             </li>
-            <li>
-              <label class="form-label">Отчество:
-                <input class="form-input" name="middleName" placeholder="Введите отчество" required/>
+            <li class="feedback-form-about__item">
+              <label>
+                <div class="feedback-form-group">
+                  <span class="feedback-form-group__name">Отчество:</span>
+                  <input class="feedback-form-group__input input" name="middleName" placeholder="Введите отчество" />
+                </div>
               </label>
             </li>
           </ul>
@@ -122,16 +131,22 @@
 
         <fieldset class="form-fieldset">
           <legend class="form-fieldset__legend title-s">Контактная информация:</legend>
-
-          <ul>
-            <li>
-              <label class="form-label">Контактный телефон*:
-                <input class="form-input" type="tel" name="telephone" placeholder="Введите телефон" />
+        
+          <ul class="feedback-form-contact">
+            <li class="feedback-form-contact__item">
+              <label>
+                <div class="feedback-form-contact-group">
+                  <span class="feedback-form-contact-group__name">Контактный телефон*:</span>
+                  <input class="feedback-form-contact-group__input input" type="tel" name="telephone" placeholder="Введите телефон" />
+                </div>
               </label>
             </li>
-            <li>
-              <label class="form-label">Электронная почта*:
-                <input class="form-input" type="email" name="email" placeholder="Введите e-mail"/>
+            <li class="feedback-form-contact__item">
+              <label>
+                <div class="feedback-form-contact-group">
+                  <span class="feedback-form-contact-group__name">Электронная почта*:</span>
+                  <input class="feedback-form-contact-group__input input" type="email" name="email" placeholder="Введите e-mail" />
+                </div>
               </label>
             </li>
           </ul>
@@ -195,10 +210,10 @@
 
         <fieldset class="form-fieldset">
           <legend class="form-fieldset__legend title-s">Опишите свои эмоции:</legend>
-          <textarea name="description" placeholder="Опишите подробно все свои восторги"></textarea>
+          <textarea name="description" class="input" placeholder="Опишите подробно все свои восторги"></textarea>
         </fieldset>
 
-        <button type="submit" class="button">ОТПРАВИТЬ ОТЗЫВ</button>
+        <button type="submit" class="feedback-form-button button">ОТПРАВИТЬ ОТЗЫВ</button>
         <p>* — обязательные поля</p>
       </form>
     </main>

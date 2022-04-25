@@ -1,6 +1,68 @@
+.feedback-description__header {
+    padding: 0 20px;
+    margin-bottom: 28px;
+}
+
+.feedback-description__text {
+    padding: 0 20px;
+    padding-bottom: 14px;
+    line-height: 26px;
+}
+
 .feedback-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 20px;
+}
+
+.form-fieldset__legend {
+    padding: 20px 0 10px 0;
+}
+
+.feedback-form-about {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-form-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding: 10px 20px;
+}
+
+.feedback-form-group__name {
+    display: block;
+    padding-right: 12px;
+}
+
+.feedback-form-group__input {
+    display: block;
+    min-width: 230px;
+}
+
+.feedback-form-contact-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    padding: 10px 20px;
+}
+
+.feedback-form-contact-group__name {
+    display: block;
+    padding: 5px 12px 5px 22px;
+}
+
+.feedback-form-contact-group__input {
+    display: block;
+}
+
+.feedback-form-button {
+    width: 100%;
 }
