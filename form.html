@@ -110,6 +110,109 @@
           Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях
         </p>
       </section>
+      <form class="feedback-form" method="POST" action="https://echo.htmlacademy.ru">
+        <fieldset class="form-fieldset">
+          <legend class="form-fieldset__legend title-s">Представьтесь:</legend>
+          <ul>
+            <li>
+              <label class="form-label">ИМЯ*:
+                <input class="form-input" name="firstName" placeholder="Введите имя" required/>
+              </label>
+            </li>
+            <li>
+              <label class="form-label">ФАМИЛИЯ*:
+                <input class="form-input" name="lastName" placeholder="Введите фамилию" required/>
+              </label>
+            </li>
+            <li>
+              <label class="form-label">Отчество:
+                <input class="form-input" name="middleName" placeholder="Введите отчество" required/>
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+
+        <fieldset class="form-fieldset">
+          <legend class="form-fieldset__legend title-s">Контактная информация:</legend>
+
+          <ul>
+            <li>
+              <label class="form-label">Контактный телефон*:
+                <input class="form-input" type="tel" name="telephone" placeholder="Введите телефон" />
+              </label>
+            </li>
+            <li>
+              <label class="form-label">Электронная почта*:
+                <input class="form-input" type="email" name="email" placeholder="Введите e-mail"/>
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+
+        <fieldset class="form-fieldset">
+          <legend class="form-fieldset__legend title-s">ВАше Общее впечатление:</legend>
+
+          <ul>
+            <li>
+              <label class="form-label">
+                <input class="form-input" type="radio" name="feedback" value="positive" checked/>
+                Скорее положительное
+              </label>
+            </li>
+            <li>
+              <label class="form-label">
+                <input class="form-input" type="radio" value="negative" name="feedback"/>
+                Скорее отрицательное
+              </label>
+            </li>
+            <li>
+              <label class="form-label">
+                <input class="form-input" type="radio" value="none" name="feedback"/>
+                Затрудняюсь ответить
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+
+        <fieldset class="form-fieldset">
+          <legend class="form-fieldset__legend title-s">посещенные достопримечательности:</legend>
+
+          <ul>
+            <li>
+              <label class="form-label">
+                <input class="form-input" type="checkbox" name="attraction_bridge" checked/>
+                Мост Дьявола
+              </label>
+            </li>
+            <li>
+              <label class="form-label">
+                <input class="form-input" type="checkbox" name="attraction_mountain" checked/>
+                Гора-Колокол
+              </label>
+            </li>
+            <li>
+              <label class="form-label">
+                <input class="form-input" type="checkbox" name="attraction_park" checked/>
+                Слайд-парк
+              </label>
+            </li>
+            <li>
+              <label class="form-label">
+                <input class="form-input" type="checkbox" name="attraction_red_rocks"/>
+                Красные скалы
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+
+        <fieldset class="form-fieldset">
+          <legend class="form-fieldset__legend title-s">Опишите свои эмоции:</legend>
+          <textarea name="description" placeholder="Опишите подробно все свои восторги"></textarea>
+        </fieldset>
+
+        <button type="submit" class="button">ОТПРАВИТЬ ОТЗЫВ</button>
+        <p>* — обязательные поля</p>
+      </form>
     </main>
     <footer class="footer">
       <strong class="hashtag">#visitsedona</strong>
