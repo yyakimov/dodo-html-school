@@ -11,10 +11,13 @@
 }
 
 .button {
+    border: 0;
+    cursor: pointer;
+
     font-weight: 700;
     font-size: 21px;
     line-height: 26px;
-    
+
     display: block;
     padding: 15px;
     color: #FFF;
