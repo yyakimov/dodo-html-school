@@ -12,9 +12,5 @@
 }
 
 .search-motel__button {
-    display: block;
     width: 100%;
-    padding: 15px;
-    color: #FFF;
-    background-color: #81B3D2;
 }
