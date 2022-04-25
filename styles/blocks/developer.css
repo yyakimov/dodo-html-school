@@ -4,5 +4,6 @@
 }
 
 .developer__link {
+    display: flex;
     line-height: 26px;
 }
