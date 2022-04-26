@@ -5,4 +5,16 @@
     background-image: url('/img/map-desktop@1x.jpg');
     background-size: cover;
     background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map__pin {
+    background-color: #81B3D3;
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+    border: #fff solid 5px;
 }
