@@ -1,0 +1,40 @@
+.sub-reason {
+    padding: 28px 20px 36px;
+}
+
+.sub-reason-item {
+    display: flex;
+}
+
+.sub-reason-item-description {
+    padding-top: 12px;
+    text-align: left;
+}
+
+.sub-reason-item-description__title {
+    color: #000;
+    margin-bottom: 16px;
+}
+
+.sub-reason-item-description__text {
+    color: #333;
+}
+
+.sub-reason-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.sub-reason-item__bulletwrapper {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    margin-right: 12px;
+}
+
+.sub-reason-item__bullet {
+    fill: #81B3D2;
+}

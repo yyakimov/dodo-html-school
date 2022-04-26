@@ -5,9 +5,17 @@
     background-image: url('/img/back-desktop@1x.jpg');
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 .banner__text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.banner__text--main {
+    top: 90px;
     width: 280px;
     height: 212.48px;
 }

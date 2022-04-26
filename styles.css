@@ -8,15 +8,11 @@
 @import 'styles/blocks/banner.css';
 @import 'styles/blocks/reason.css';
 @import 'styles/blocks/reasons.css';
-@import 'styles/blocks/reasons-item.css';
-@import 'styles/blocks/city-reason.css';
-@import 'styles/blocks/city-reason-item.css';
-@import 'styles/blocks/city-reason-item-description.css';
-@import 'styles/blocks/bridge-reason.css';
+@import 'styles/blocks/sub-reason.css';
+@import 'styles/blocks/reasons-list.css';
 @import 'styles/blocks/search-motel.css';
 @import 'styles/blocks/hashtag.css';
 @import 'styles/blocks/developer.css';
-@import 'styles/blocks/bridge-banner.css';
 @import 'styles/blocks/map.css';
 @import 'styles/blocks/footer.css';
 @import 'styles/blocks/social-list.css';
