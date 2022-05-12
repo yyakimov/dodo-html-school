@@ -2,6 +2,7 @@
 @import 'styles/mixins.css';
 
 @import 'styles/body.css';
+@import 'styles/blocks/header.css';
 @import 'styles/blocks/main.css';
 @import 'styles/blocks/logo.css';
 @import 'styles/blocks/menu.css';
