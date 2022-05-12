@@ -1,10 +1,9 @@
 .developer {
     display: flex;
     align-items: center;
+    line-height: 26px;
 }
 
-.developer__link {
-    display: flex;
-    line-height: 26px;
-    padding-left: 12px;
+.developer__text {
+    margin-right: 12px;
 }
