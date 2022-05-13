@@ -1,11 +1,11 @@
-.reasons__header {
+.title {
     padding: 32px 20px 30px;
 }
 
-.reasons__title {
+.title__title {
     margin-bottom: 28px;
 }
 
-.reasons__text {
+.title__text {
     line-height: 26px;
 }
