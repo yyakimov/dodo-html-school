@@ -1,0 +1,22 @@
+.reasons-list__item {
+    position: relative;
+}
+
+.reasons-list__item--full .reason__content {
+    background-color: #81B3D2;
+    color: #FFF;
+}
+
+.reasons-list__item--short .reason__content {
+    background-color: #EEE;
+}
+
+.reasons-list__item--short:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    left: 20px;
+    right: 20px;
+    bottom: 0;
+    background-color: #D6D6D6;
+}

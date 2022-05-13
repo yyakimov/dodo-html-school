@@ -1,0 +1,28 @@
+.reason__content {
+    padding: 24px 20px;
+}
+
+.reason__title {
+    margin-bottom: 14px;
+}
+
+.reason__text:not(:last-child) {
+    margin-bottom: 14px;
+}
+
+.reason__banner {
+    width: 320px;
+    height: 260px;
+    background-size: cover;
+    background-position: center;
+}
+
+.reason__banner--bridge {
+    background-color: #82675c;
+    background-image: url('/img/photo-bridge@1x.jpg');
+}
+
+.reason__banner--city {
+    background-color: #a89a90;
+    background-image: url('/img/photo-city@1x.jpg');
+}

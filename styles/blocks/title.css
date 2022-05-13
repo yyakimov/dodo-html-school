@@ -1,0 +1,11 @@
+.title {
+    padding: 32px 20px 30px;
+}
+
+.title__title {
+    margin-bottom: 28px;
+}
+
+.title__text {
+    line-height: 26px;
+}
